@@ -51,7 +51,7 @@ Steps:
         Create a Helm chart for the Java application that includes the Kubernetes manifests and Helm values.
         Add the Helm chart to the Git repository that Argo CD is tracking.
 
-    6. Configure Jenkins pipeline to integrate with Argo CD:
+    6. Configure Jenkins pipeline to integrate with Argo CD:-
        6.1 Add the Argo CD API token to Jenkins credentials.
        6.2 Update the Jenkins pipeline to include the Argo CD deployment stage.
 
